@@ -62,7 +62,7 @@ Usuarios_varios=[
 # print(db.mostrar("Usuarios",where="dni=65463688",type="objeto"))
 # ## print(db.mostrar("Usuarios",where="Precio >10",type="objeto"))
 
-# db.actualizar("Usuarios",{"Estado":"Activo"},where={"Nombre":Yadira})
+# db.actualizar("Usuarios",{"Estado":"Activo"},where="Nombre:'Yadira'")
 
 #db.actualizar("Usuarios",{"f_Nacimiento":"11/12/2005"},where="dni:43576688")
 
